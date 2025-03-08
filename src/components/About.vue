@@ -1,11 +1,15 @@
 <script setup lang="ts">
+import ContactButtons from "./ContactButtons.vue";
 </script>
 
 <template>
   <div class="about-main">
     <h1>Hermes Santos</h1>
     <div class="text-about">
-      Passionate developer with a knack for solving complex problems through code. Mostly self-taught and driven by an unyielding curiosity to explore and master new technologies.
+      Desenvolvedor com uma habilidade especial para resolver problemas complexos através de código. Majoritariamente autodidata e movido por uma curiosidade incansável para explorar e dominar novas tecnologias.
+    </div>
+    <div>
+      <ContactButtons />
     </div>
   </div>
 </template>
@@ -13,10 +17,12 @@
 .about-main{
   h1{
     font-size: 3rem;
+    font-weight: 800;
     background: linear-gradient(
       to right,
       #7953cd 20%,
       #00affa 30%,
+      #00f5d4 40%,
       #0190cd 70%,
       #764ada 80%
       );
@@ -25,7 +31,7 @@
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     background-size: 500% auto;
-    animation: textShine 5s ease-in-out infinite alternate;
+    animation: textShine 3s ease-in-out infinite alternate;
   }
   text-align: center;
   padding: 6rem 25rem;
