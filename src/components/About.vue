@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ContactButtons from "./ContactButtons.vue";
+import Skills from "./Skills.vue";
 </script>
 
 <template>
@@ -10,6 +11,9 @@ import ContactButtons from "./ContactButtons.vue";
     </div>
     <div>
       <ContactButtons />
+    </div>
+    <div>
+      <Skills />
     </div>
   </div>
 </template>

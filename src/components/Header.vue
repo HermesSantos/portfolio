@@ -17,6 +17,10 @@ a {
   margin: 0 2rem;
   cursor: pointer;
 }
+a:hover {
+  color: #7953cd;
+  transition: 0.3s;
+}
 .header-main {
   background-color: #0a0a0a;
   color: white;

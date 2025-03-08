@@ -20,6 +20,7 @@
     background: none;
     border: 2px solid grey;
     font-size: .8rem;
+    cursor: pointer;
   }
 
 }
