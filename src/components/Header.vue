@@ -4,11 +4,11 @@
 <template>
   <div class="header-main">
     <div class="header-items">
-      <a class="header-link-item">Sobre</a>
-      <a class="header-link-item">Tecnologias</a>
-      <a class="header-link-item">Projetos</a>
-      <a class="header-link-item">Experiências</a>
-      <a class="header-link-item">Contatos</a>
+      <a href="#about-section" class="header-link-item">Sobre</a>
+      <a href="#tech-section" class="header-link-item">Tecnologias</a>
+      <a href="#projects-section" class="header-link-item">Projetos</a>
+      <a href="#xp-section" class="header-link-item">Experiências</a>
+      <a href="#contact-section" class="header-link-item">Contatos</a>
     </div>
   </div>
 </template>

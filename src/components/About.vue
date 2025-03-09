@@ -6,10 +6,10 @@ import Skills from "./Skills.vue";
 <template>
   <div class="about-main">
     <h1>Hermes Santos</h1>
-    <div class="text-about">
-      Desenvolvedor com uma habilidade especial para resolver problemas complexos através de código. Majoritariamente autodidata e movido por uma curiosidade incansável para explorar e dominar novas tecnologias.
+    <div class="text-about" id="about-section">
+      Desenvolvedor apaixonado com uma habilidade especial para solucionar problemas complexos por meio de código. Majoritariamente autodidata, sou movido por uma curiosidade incansável que me leva a explorar e dominar tecnologias como Vue e React para interfaces dinâmicas, Laravel e Node.js para backends robustos, e MySQL para gerenciamento eficiente de dados. Atualmente, estou mergulhando no estudo de Golang, buscando expandir ainda mais minhas capacidades e criar soluções escaláveis e performáticas.
     </div>
-    <div>
+    <div id="contact-section">
       <ContactButtons />
     </div>
     <div>
@@ -41,7 +41,8 @@ import Skills from "./Skills.vue";
   padding: 6rem 25rem;
   .text-about {
     font-size: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    text-align: justify;
   }
   @keyframes textShine {
   0% {
