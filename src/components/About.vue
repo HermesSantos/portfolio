@@ -21,7 +21,7 @@ import Skills from "./Skills.vue";
 .about-main{
   h1{
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 700;
     background: linear-gradient(
       to right,
       #7953cd 20%,

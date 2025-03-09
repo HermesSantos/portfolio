@@ -4,22 +4,18 @@
 <template>
   <div class="header-main">
     <div class="header-items">
-      <a>Sobre</a>
-      <a>Skills</a>
-      <a>Projetos</a>
-      <a>Experiência</a>
-      <a>Contatos</a>
+      <a class="header-link-item">Sobre</a>
+      <a class="header-link-item">Skills</a>
+      <a class="header-link-item">Projetos</a>
+      <a class="header-link-item">Experiências</a>
+      <a class="header-link-item">Contatos</a>
     </div>
   </div>
 </template>
-<style scoped>
+<style scoped lang="scss">
 a {
-  margin: 0 2rem;
-  cursor: pointer;
-}
-a:hover {
-  color: #7953cd;
-  transition: 0.3s;
+  color: white;
+  text-decoration: none;
 }
 .header-main {
   background-color: #0a0a0a;
@@ -29,9 +25,17 @@ a:hover {
   position: fixed;
   align-items: center;
   box-shadow: 0 1px 2px -2px white;
-}
-.header-items {
-  display: flex;
-  justify-content: center;
+  .header-items {
+    display: flex;
+    justify-content: center;
+  }
+  .header-link-item {
+    margin: 0 2rem;
+    cursor: pointer;
+  }
+  .header-link-item:hover {
+    color: #7953cd;
+    transition: 0.3s;
+  }
 }
 </style>
