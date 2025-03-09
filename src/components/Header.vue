@@ -5,7 +5,7 @@
   <div class="header-main">
     <div class="header-items">
       <a class="header-link-item">Sobre</a>
-      <a class="header-link-item">Skills</a>
+      <a class="header-link-item">Tecnologias</a>
       <a class="header-link-item">Projetos</a>
       <a class="header-link-item">Experiências</a>
       <a class="header-link-item">Contatos</a>
