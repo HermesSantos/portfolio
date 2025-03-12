@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import ContactButtons from "./ContactButtons.vue";
 import Skills from "./Skills.vue";
 </script>

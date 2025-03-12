@@ -1,6 +1,6 @@
-<script lang="ts" setup>
-import {ref} from "vue";
+<script setup>
 import ContactModal from "./ContactModal.vue";
+import {ref} from "vue";
 const show = ref(false);
 const handleModalContacs = () => {
   show.value = !show.value;
