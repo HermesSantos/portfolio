@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
-  base: '/hermes-dev',
+  base: '/portfolio',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
