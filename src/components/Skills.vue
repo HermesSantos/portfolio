@@ -18,16 +18,6 @@
                 TypeScript</span>
             </div>
             <div class="flex items-center gap-2">
-              <img alt="HTML icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="w-5 h-5" style="color:transparent" src="../../public/icons/icons/html-5-svgrepo-com.svg">
-              <span class="text-xs md:text-sm font-medium text-foreground">
-                HTML</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <img alt="CSS icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="w-5 h-5" style="color:transparent" src="../../public/icons/icons/css-svgrepo-com.svg">
-              <span class="text-xs md:text-sm font-medium text-foreground">
-                CSS</span>
-            </div>
-            <div class="flex items-center gap-2">
               <img alt="CSS icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="w-5 h-5" style="color:transparent" src="../../public/icons/icons/laravel-logo-svgrepo-com.svg">
               <span class="text-xs md:text-sm font-medium text-foreground">
                 Laravel</span>
@@ -36,6 +26,16 @@
               <img alt="CSS icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="w-5 h-5" style="color:transparent" src="../../public/icons/icons/vue-svgrepo-com.svg">
               <span class="text-xs md:text-sm font-medium text-foreground">
                 Vue</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <img alt="HTML icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="w-5 h-5" style="color:transparent" src="../../public/icons/icons/html-5-svgrepo-com.svg">
+              <span class="text-xs md:text-sm font-medium text-foreground">
+                HTML</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <img alt="CSS icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="w-5 h-5" style="color:transparent" src="../../public/icons/icons/css-svgrepo-com.svg">
+              <span class="text-xs md:text-sm font-medium text-foreground">
+                CSS</span>
             </div>
           </div>
         </div>
