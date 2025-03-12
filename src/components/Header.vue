@@ -9,7 +9,7 @@ const handleModal = () => {
 </script>
 
 <template>
-  <div class="header-main">
+  <div class="header-main lg:text-base text-5xl">
     <ModalContact :show="show" @close-modal="handleModal"/>
     <div class="header-items">
       <a href="#about-section" class="header-link-item">Sobre</a>

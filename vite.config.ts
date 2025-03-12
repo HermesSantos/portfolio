@@ -13,6 +13,10 @@ export default defineConfig({
     tailwindcss(),
   ],
   base: '/portfolio',
+  server: {
+    host: '0.0.0.0',
+    port: 5174
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
