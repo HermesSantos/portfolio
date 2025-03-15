@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Header from '../components/Header.vue'
 import About from '../components/About.vue'
+import Projects from '../components/Projects.vue'
 import {ref} from 'vue'
 
 const position = ref({
@@ -8,8 +9,8 @@ const position = ref({
   y: 0
 })
 function onMouseMove (e: any) {
-  position.value.x = e.clientX
-  position.value.y = e.clientY
+  position.value.x = e.clientX + window.scrollX
+  position.value.y = e.clientY + window.scrollY
 }
 </script>
 
@@ -17,6 +18,7 @@ function onMouseMove (e: any) {
   <main @mousemove="onMouseMove">
     <Header />
     <About />
+    <Projects />
     <div class="mouse-effect"
       :style="{top: `${position.y}px`, left: `${position.x}px`}">
     </div>
