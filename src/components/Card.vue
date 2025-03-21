@@ -20,7 +20,14 @@ const props = defineProps({
         <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{projectLanguage}}</span>
       </div>
       <div class="mt-2 flex align-center justify-center px-2 pt-2 pb-2">
-        <button target="_blank" :href="projectUrl" data-modal-target="default-modal" data-modal-toggle="default-modal" @click="handleModalContacs">Saber Mais</button>
+        <a
+          target="_blank"
+          :href="projectUrl"
+          data-modal-toggle="default-modal"
+          @click="handleModalContacs"
+        >
+        Saber Mais
+        </a>
       </div>
     </div>
   </div>
