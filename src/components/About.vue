@@ -6,7 +6,7 @@ import Skills from "./Skills.vue";
 <template>
   <div class="about-main px-20 pt-35">
     <h1 class="text-8xl">Hermes Santos</h1>
-    <div class="text-about pl-5 pr-5 lg:pl-30 lg:pr-30 lg:pt-1 text-4xl lg:text-base" id="about-section">
+    <div class="text-about pl-5 pr-5 lg:pl-30 lg:pr-30 lg:pt-1 text-4xl lg:text-base/9" id="about-section">
       Desenvolvedor apaixonado com uma habilidade especial para solucionar problemas complexos por meio de código. Majoritariamente autodidata, sou movido por uma curiosidade incansável que me leva a explorar e dominar tecnologias como Vue e React para interfaces dinâmicas, Laravel e Node.js para backends robustos, e MySQL para gerenciamento eficiente de dados. Atualmente, estou mergulhando no estudo de Golang, buscando expandir ainda mais minhas capacidades e criar soluções escaláveis e performáticas.
     </div>
     <div id="contact-section">
